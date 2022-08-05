@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "channelUsername": {
+      "type": "string",
+      "default": "@channelUsername"
+    },
+    "message": {
+      "type": "string",
+      "default": "Hi everyone!"
+    },
+    "priority": {
+      "type": "string",
+      "default": "low"
+    }
+  }
+}

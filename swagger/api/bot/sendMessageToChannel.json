@@ -1,0 +1,39 @@
+{
+  "post": {
+    "tags": [
+      "Bot"
+    ],
+    "security": [],
+    "summary": "Send message to channel",
+    "operationId": "sendMessageToChannel",
+    "parameters": [],
+    "requestBody": {
+      "content": {
+        "application/json": {
+          "schema": {
+            "$ref": "#/components/schemas/MessageOptions"
+          }
+        }
+      },
+      "required": true
+    },
+    "responses": {
+      "200": {
+        "description": "",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "success": {
+                  "type": "string",
+                  "default": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
